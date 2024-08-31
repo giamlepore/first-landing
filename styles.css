@@ -1,5 +1,5 @@
 img {
-    width: 100px;
+    max-width: 400px;
 }
 
 body {
@@ -20,6 +20,7 @@ h1 {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -44,7 +45,7 @@ h1 {
 }
 
 .left-header {
-
+    font-weight: 900;
 }
 
 .right-header {
@@ -58,4 +59,20 @@ ul {
     font-size: 18px;
     font-family: Roboto, -apple-system;
     color: #E5E7EB;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes_section_two {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.img_section_2 {
+    border-radius: 5px;
 }
